@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FACEBOOK Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.facebook.ExtentReporterNG.ExtentReporterNG"/>
+  </listeners>
+  <test name="FACEBOOK Test Cases(failed)">
+    <classes>
+      <class name="com.facebook.TestCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifymultipleLogin" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- FACEBOOK Test Cases(failed) -->
+</suite> <!-- Failed suite [FACEBOOK Application Test Automation Test Suite] -->
